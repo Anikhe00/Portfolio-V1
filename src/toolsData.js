@@ -36,7 +36,7 @@ const toolsData = [
   {
     id: 7,
     toolName: "Framer",
-    logo: ""
+    logo: "src/images/framer-svgrepo-com.svg"
   },
 
   {
