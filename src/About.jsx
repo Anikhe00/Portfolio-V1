@@ -9,7 +9,7 @@ function About () {
         </p>
         
         <p className="text-gray-600 text-[16px] leading-[24px] font-normal font-[Manrope]">
-          Over the past three years, I've worked across HealthTech, FinTech, SaaS, and EdTech industries, designing user-friendly workflows, building design systems, and coding with HTML, CSS, Tailwind, and JavaScript. Lately, I'm also learning ReactJS to level up my frontend skills.
+          Over the past three years, I've worked across HealthTech, FinTech, SaaS, and EdTech industries, designing user-friendly workflows, building design systems, and coding with HTML, CSS, Tailwind, and JavaScript. Lately, I'm also learning React to level up my frontend skills.
         </p>
         
         <p className="text-gray-600 text-[16px] leading-[24px] font-normal font-[Manrope]">

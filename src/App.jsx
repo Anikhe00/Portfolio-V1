@@ -4,10 +4,14 @@ import ToolSection from "./ToolSection";
 
 function App() {
   return (
-    <main className="flex flex-col gap-16 content-start flex-1">
-      <About/>
-      <Projects/>
-      <ToolSection/>
+    <main className="flex flex-row gap-16 content-start flex-1 px-[7.5rem] py-[4rem]">
+      
+      <section className="flex flex-col gap-16 content-start flex-1">
+        <About/>
+        <Projects/>
+        <ToolSection/>
+      </section>
+      
     </main>
     
   )
