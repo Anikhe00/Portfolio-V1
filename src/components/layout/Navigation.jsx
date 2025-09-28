@@ -32,9 +32,7 @@ export default function Navigation() {
             key={index}
             icon={account.icon}
             label={account.name}
-            onClick={() =>
-              window.open(account.link, "_blank", "noopener,noreferrer")
-            }
+            link={account.link}
           />
         ))}
       </div>
