@@ -1,16 +1,22 @@
 import Projects from "./components/layout/Projects";
 import About from "./components/layout/About";
 import ToolSection from "./components/layout/ToolSection";
+import Articles from "./components/layout/Articles";
+import Navigation from "./components/layout/Navigation";
 
 function App() {
   return (
-    <main className="flex flex-row gap-16 content-start flex-1 px-[7.5rem] py-[4rem]">
-      <section className="flex flex-col gap-16 content-start flex-1">
-        <About />
-        <Projects />
-        <ToolSection />
-      </section>
-    </main>
+    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
+      <div className="flex flex-col lg:flex-row lg:justify-between gap-[2.5rem] lg:gap-[4rem]">
+        <Navigation />
+        <main className="flex flex-col gap-[2.5rem] lg:gap-[4rem] items-start overflow-y-auto lg:py-[4rem]">
+          <About />
+          <Projects />
+          <ToolSection />
+          <Articles />
+        </main>
+      </div>
+    </div>
   );
 }
 

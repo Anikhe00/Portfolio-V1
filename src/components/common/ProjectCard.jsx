@@ -4,16 +4,16 @@ import { GitHubIcon, LinkIcon } from "./Icons";
 
 function ProjectCard(props) {
   return (
-    <ul className="flex flex-row gap-5 w-full flex-start items-center group cursor-pointer">
+    <li className="flex flex-col-reverse md:flex-row lg:flex-row gap-[1.25rem] md: w-full flex-start items-center group cursor-pointer">
       <img
         src={props.image}
         alt={props.name}
-        className="w-[200px] h-[160px] object-cover rounded-lg border-1 border-purple-100"
+        className="w-full md:w-[12.5rem] lg:w-[12.5rem] h-[12.5rem] md:h-[10rem] lg:h-[10rem] object-cover rounded-lg border-1 border-purple-100"
       />
-      <div className="flex flex-col content-start gap-4 w-full">
-        <div className="flex flex-col content-start gap-2">
-          <div className="flex items-center justify-between">
-            <h3 className="text-gray-800 group-hover:text-purple-700 text-[18px] leading-[20px] font-semibold font-[Baskerville]">
+      <div className="flex flex-col content-start gap-[1rem] w-full">
+        <div className="flex flex-col content-start gap-[0.5rem]">
+          <div className="flex gap-[1rem] items-center justify-between">
+            <h3 className="text-gray-800 group-hover:text-purple-700 text-[1.125rem] leading-[1.25rem] font-semibold font-[Baskerville]">
               {props.name}
             </h3>
 
@@ -45,7 +45,7 @@ function ProjectCard(props) {
           <ToolList tools={props.tools} />
         </div>
       </div>
-    </ul>
+    </li>
   );
 }
 

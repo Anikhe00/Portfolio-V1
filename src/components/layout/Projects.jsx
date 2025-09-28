@@ -3,15 +3,15 @@ import ProjectCard from "../common/ProjectCard";
 
 function Projects() {
   return (
-    <section className="flex flex-col gap-6 content-start">
-      <h2 className="text-gray-800 text-[24px] font-semibold leading-[28px] font-[Baskerville]">
+    <section className="flex flex-col gap-[1rem] md:gap-[1.5rem] lg:gap-[1.5rem] content-start">
+      <h2 className="text-gray-800 text-[1.25rem] md:text-[1.5rem] lg:text-[1.5rem] font-semibold leading-normal font-[Baskerville]">
         Projects
       </h2>
-      <li className="w-full h-fit flex flex-col content-start gap-6 self-stretch">
+      <ul className="w-full h-fit flex flex-col content-start gap-[2rem] self-stretch">
         {projectData.map((project) => (
-          <ProjectCard {...project} />
+          <ProjectCard key={project.id} {...project} />
         ))}
-      </li>
+      </ul>
     </section>
   );
 }
