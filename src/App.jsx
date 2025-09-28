@@ -7,9 +7,12 @@ import Navigation from "./components/layout/Navigation";
 function App() {
   return (
     <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
-      <div className="flex flex-col lg:flex-row lg:justify-between gap-[2.5rem] lg:gap-[4rem]">
+      <div className="flex flex-col lg:flex-row lg:justify-between gap-[2.5rem] lg:gap-[0.5rem]">
         <Navigation />
-        <main className="flex flex-col gap-[2.5rem] lg:gap-[4rem] items-start overflow-y-auto lg:py-[4rem]">
+        <main
+          id="content"
+          className="flex flex-col gap-[2.5rem] lg:gap-[4rem] items-start lg:py-[4rem] w-full lg:w-[60%] overflow-visible"
+        >
           <About />
           <Projects />
           <ToolSection />

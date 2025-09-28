@@ -1,40 +1,23 @@
 import ToolList from "./ToolList";
-import Button from "./Button";
-import { GitHubIcon, LinkIcon } from "./Icons";
 
 function ProjectCard(props) {
   return (
-    <li className="flex flex-col-reverse md:flex-row lg:flex-row gap-[1.25rem] md: w-full flex-start items-center group cursor-pointer">
+    <li
+      className="relative flex flex-col-reverse md:flex-row lg:flex-row gap-[1.25rem] w-full flex-start items-start group cursor-pointer overflow-visible"
+      onClick={() => window.open(props.link, "_blank", "noopener,noreferrer")}
+    >
+      <div class="absolute -inset-4 z-0 hidden px-4 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-purple-50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-xs"></div>
+
       <img
         src={props.image}
         alt={props.name}
-        className="w-full md:w-[12.5rem] lg:w-[12.5rem] h-[12.5rem] md:h-[10rem] lg:h-[10rem] object-cover rounded-lg border-1 border-purple-100"
+        className="aspect-video relative z-10 w-full md:w-[12.5rem] lg:w-[12.5rem] h-[12.5rem] md:h-[7rem] lg:h-[7rem] object-cover rounded-lg border-2 border-gray-200 group-hover:border-purple-200"
       />
-      <div className="flex flex-col content-start gap-[1rem] w-full">
-        <div className="flex flex-col content-start gap-[0.5rem]">
-          <div className="flex gap-[1rem] items-center justify-between">
-            <h3 className="text-gray-800 group-hover:text-purple-700 text-[1.125rem] leading-[1.25rem] font-semibold font-[Baskerville]">
-              {props.name}
-            </h3>
-
-            <div className="flex flex-row gap-[0.5rem]">
-              <Button
-                icon={LinkIcon}
-                label="Open project link"
-                onClick={() =>
-                  window.open(props.link, "_blank", "noopener,noreferrer")
-                }
-              />
-
-              <Button
-                icon={GitHubIcon}
-                label="Open GitHub Repo"
-                onClick={() =>
-                  window.open(props.github, "_blank", "noopener,noreferrer")
-                }
-              />
-            </div>
-          </div>
+      <div className="relative z-10 flex flex-col content-start gap-[1rem] w-full">
+        <div className="relative z-10 flex flex-col content-start gap-[0.5rem]">
+          <h3 className="text-gray-800 group-hover:text-purple-700 text-[1.125rem] leading-[1.25rem] font-semibold font-[Baskerville]">
+            {props.name}
+          </h3>
 
           <p className="text-gray-600 text-[16px] leading-[24px] font-normal font-[Manrope] w-full">
             {props.description}

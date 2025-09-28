@@ -1,6 +1,9 @@
 function About() {
   return (
-    <section className="flex flex-col gap-[1rem] md:gap-[1.5rem] lg:gap-[1.5rem] content-start">
+    <section
+      id="about"
+      className="flex flex-col gap-[1rem] md:gap-[1.5rem] lg:gap-[1.5rem] scroll-mt-16 lg:scroll-mt-24"
+    >
       <h2 className="text-gray-800 text-[1.25rem] md:text-[1.5rem] lg:text-[1.5rem] font-semibold leading-normal font-[Baskerville]">
         About
       </h2>

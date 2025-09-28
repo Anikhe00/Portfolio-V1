@@ -1,7 +1,7 @@
 const projectData = [
   {
     id: 1,
-    name: "Rock Paper Scissors",
+    name: "Mortgage Calculator",
     description:
       "A responsive, interactive mortgage repayment calculator built with React and TailwindCSS. This is a solution to the Mortgage repayment calculator challenge on Frontend Mentor.",
     tools: ["Reactjs", "Tailwindcss"],

@@ -1,8 +1,8 @@
 export function GitHubIcon() {
   return (
     <svg
-      width="16"
-      height="16"
+      width="24"
+      height="24"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -25,8 +25,8 @@ export function GitHubIcon() {
 export function LinkIcon() {
   return (
     <svg
-      width="16"
-      height="16"
+      width="24"
+      height="24"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -45,8 +45,8 @@ export function LinkIcon() {
 export function LinkedInIcon() {
   return (
     <svg
-      width="16"
-      height="16"
+      width="24"
+      height="24"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +64,8 @@ export function LinkedInIcon() {
 export function TwitterIcon() {
   return (
     <svg
-      width="16"
-      height="16"
+      width="24"
+      height="24"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -101,8 +101,8 @@ export function TwitterIcon() {
 export function MailIcon() {
   return (
     <svg
-      width="16"
-      height="16"
+      width="24"
+      height="24"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

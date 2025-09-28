@@ -4,7 +4,7 @@ import socialAccountData from "../../socialMediaData";
 
 export default function Navigation() {
   return (
-    <header className="flex flex-col items-start justify-between gap-[1rem] w-full h-auto lg:max-h-dvh py-0 md:py-0 lg:py-[4rem]">
+    <header className="flex flex-col items-start justify-between gap-[1rem] w-full lg:w-[40%] h-auto py-0 md:py-0 lg:py-[4rem] lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:flex-col lg:justify-between ">
       <div className="flex flex-col items-start gap-[1rem]">
         <div className="w-full h-auto flex flex-col items-start gap-[1rem]">
           <img
@@ -14,10 +14,10 @@ export default function Navigation() {
           />
 
           <div className="flex flex-col items-start gap-[0rem]">
-            <h1 className="text-gray-800 text-[1.25rem] md:text-[1.5rem] lg:text-[1.5rem] font-semibold leading-normal font-[Baskerville]">
+            <h1 className="text-gray-800 text-[2.25rem] md:text-[2.25rem] lg:text-[2.25rem] font-semibold leading-normal font-[Baskerville]">
               Shakirat Akanji
             </h1>
-            <p className="text-[1rem] leading-normal font-normal text-gray-700">
+            <p className="text-[1.25rem] leading-normal font-normal text-gray-600 font-[Manrope]">
               Design Engineer
             </p>
           </div>
