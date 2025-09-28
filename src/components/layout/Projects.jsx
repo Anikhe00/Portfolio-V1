@@ -1,5 +1,7 @@
 import projectData from "../../projectsData";
 import ProjectCard from "../common/ProjectCard";
+import LinkButton from "../common/LinkButton";
+import { ArrowRightIcon } from "../common/Icons";
 
 function Projects() {
   return (
@@ -8,10 +10,19 @@ function Projects() {
         Projects
       </h2>
       <ul className="w-full h-fit flex flex-col content-start gap-[2rem] lg:gap-[3rem] self-stretch overflow-visible">
-        {projectData.map((project) => (
+        {projectData.slice(0, 5).map((project) => (
           <ProjectCard key={project.id} {...project} />
         ))}
       </ul>
+
+      {projectData.length > 5 && (
+        <LinkButton
+          icon={ArrowRightIcon}
+          label="View All Projects"
+          onClick={() => (window.location.href = "/projects")}
+          className="w-fit h-fit text-[14px] font-[Manrope] text-center leading-[20px]"
+        />
+      )}
     </section>
   );
 }
