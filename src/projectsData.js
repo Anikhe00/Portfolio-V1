@@ -1,3 +1,12 @@
+import mortgageCalculatorImg from "/src/images/mortgage-calculator.png";
+import rockPaperScissorsImg from "/src/images/rock-paper-scissors.png";
+import characterCounterImg from "/src/images/character-counter.png";
+import recipeHubImg from "/src/images/recipe-hub.png";
+import faqPageImg from "/src/images/faq-page.png";
+import weatherCastImg from "/src/images/weathercast.png";
+import ideaVaultImg from "/src/images/idea-vault.png";
+import colorSparkImg from "/src/images/color-spark.png";
+
 const projectData = [
   {
     id: 1,
@@ -7,7 +16,7 @@ const projectData = [
     tools: ["Reactjs", "Tailwindcss"],
     link: "https://mortgage-calculator-gules.vercel.app/",
     github: "https://github.com/Anikhe00/Mortgage-Calculator",
-    image: "/src/images/mortgage-calculator.png",
+    image: mortgageCalculatorImg,
   },
 
   {
@@ -18,7 +27,7 @@ const projectData = [
     tools: ["HTML", "CSS", "JavaScript"],
     link: "https://rock-paper-scissors-game-delta-jade.vercel.app/",
     github: "",
-    image: "src/images/rock-paper-scissors.png",
+    image: rockPaperScissorsImg,
   },
 
   {
@@ -29,7 +38,7 @@ const projectData = [
     tools: ["HTML", "CSS", "JavaScript"],
     link: "https://character-counter-rose.vercel.app/",
     github: "https://github.com/Anikhe00/Character-Counter",
-    image: "src/images/character-counter.png",
+    image: characterCounterImg,
   },
 
   {
@@ -40,7 +49,7 @@ const projectData = [
     tools: ["HTML", "CSS", "JavaScript", "TheMealDB API"],
     link: "https://recipe-hub-nu.vercel.app/",
     github: "https://github.com/Anikhe00/Recipe-Hub",
-    image: "src/images/recipe-hub.png",
+    image: recipeHubImg,
   },
 
   {
@@ -51,7 +60,7 @@ const projectData = [
     tools: ["Reactjs", "TailwindCSS", "JavaScript"],
     link: "https://fe-faqs.vercel.app/",
     github: "https://github.com/Anikhe00/FE-FAQs?tab=readme-ov-file",
-    image: "src/images/faq-page.png",
+    image: faqPageImg,
   },
 
   {
@@ -62,7 +71,7 @@ const projectData = [
     tools: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
     link: "https://weather-cast-self.vercel.app/",
     github: "https://github.com/Anikhe00/WeatherCast",
-    image: "src/images/weathercast.png",
+    image: weatherCastImg,
   },
 
   {
@@ -73,7 +82,7 @@ const projectData = [
     tools: ["HTML", "CSS", "JavaScript"],
     link: "https://idea-vault-ten.vercel.app/",
     github: "https://github.com/Anikhe00/IdeaVault",
-    image: "src/images/idea-vault.png",
+    image: ideaVaultImg,
   },
 
   {
@@ -84,7 +93,7 @@ const projectData = [
     tools: ["HTML", "CSS", "JavaScript"],
     link: "https://color-spark.vercel.app/",
     github: "https://github.com/Anikhe00/Color-Spark",
-    image: "src/images/color-spark.png",
+    image: colorSparkImg,
   },
 ];
 
