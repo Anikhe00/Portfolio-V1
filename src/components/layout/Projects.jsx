@@ -20,7 +20,7 @@ function Projects() {
           icon={ArrowRightIcon}
           label="View All Projects"
           onClick={() => (window.location.href = "/projects")}
-          className="w-fit h-fit text-[1.25rem] font-[Manrope] text-center leading-[100%]"
+          className="w-fit h-fit text-[1rem] md:text-[1.25rem] lg:text-[1.25rem] font-[Manrope] text-center leading-[100%]"
         />
       )}
     </section>
