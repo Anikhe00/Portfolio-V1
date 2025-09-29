@@ -1,11 +1,25 @@
-export default function NavLink({ pageName }) {
+export default function NavLink({ pageName, isActive }) {
   return (
     <a
       href={`#${pageName.toLowerCase()}`}
-      className="flex items-center justify-center gap-[0.5rem] group"
+      className={`flex items-center justify-center gap-[0.5rem] group ${
+        isActive ? "text-purple-700" : "text-gray-500"
+      }`}
     >
-      <span className="w-[2rem] group-hover:w-[3rem] h-[0.063rem] bg-gray-500 group-hover:bg-purple-700 motion-reduce:transition-none"></span>
-      <span className="text-[1rem] font-[Manrope] leading-normal text-gray-500 group-hover:text-purple-700">
+      <span
+        className={`lg:w-[2rem] group-hover:lg:w-[3rem] h-[0.063rem] motion-reduce:transition-none ${
+          isActive
+            ? "lg:w-[3rem] bg-purple-700"
+            : "bg-gray-500 group-hover:bg-purple-700 group-hover:lg:w-[3rem]"
+        }`}
+      ></span>
+      <span
+        className={`lg:text-[1rem] text-[1.25rem] font-[Manrope] leading-norma ${
+          isActive
+            ? "text-purple-700"
+            : "text-gray-500 group-hover:text-purple-700"
+        }`}
+      >
         {pageName}
       </span>
     </a>

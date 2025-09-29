@@ -3,7 +3,7 @@ import Button from "../common/Button";
 import socialAccountData from "../../socialMediaData";
 import NavLink from "../common/NavLink";
 
-export default function Navigation() {
+export default function Navigation({ sections, active }) {
   return (
     <header className="flex flex-col items-start justify-between gap-[1rem] w-full lg:w-[40%] h-auto py-0 md:py-0 lg:py-[4rem] lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:flex-col lg:justify-between ">
       <div className="flex flex-col items-start gap-[2rem]">
@@ -25,10 +25,13 @@ export default function Navigation() {
         </div>
 
         <nav className="hidden lg:flex flex-col gap-[0.75rem] items-start justify-start">
-          <NavLink pageName="About" />
-          <NavLink pageName="Projects" />
-          <NavLink pageName="Tools" />
-          <NavLink pageName="Articles" />
+          {sections.map((pageName) => (
+            <NavLink
+              key={pageName}
+              pageName={pageName}
+              isActive={active === pageName.toLowerCase()}
+            />
+          ))}
         </nav>
       </div>
 
