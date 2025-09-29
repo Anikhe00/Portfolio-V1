@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 import Projects from "./components/layout/Projects";
 import About from "./components/layout/About";
 import ToolSection from "./components/layout/ToolSection";
@@ -19,6 +21,7 @@ function App() {
           <Articles />
         </main>
       </div>
+      <Analytics />
     </div>
   );
 }
