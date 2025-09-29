@@ -14,7 +14,7 @@ export default function NavLink({ pageName, isActive }) {
         }`}
       ></span>
       <span
-        className={`lg:text-[1rem] text-[1.25rem] font-[Manrope] leading-norma ${
+        className={`text-[1rem] font-[Manrope] leading-norma ${
           isActive
             ? "text-purple-700"
             : "text-gray-500 group-hover:text-purple-700"
