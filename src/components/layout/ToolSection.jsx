@@ -3,7 +3,10 @@ import ToolBadge from "../common/ToolBadge";
 
 function ToolSection() {
   return (
-    <section className="flex flex-col gap-6 scroll-mt-16 lg:scroll-mt-24">
+    <section
+      id="tools"
+      className="flex flex-col gap-6 scroll-mt-16 lg:scroll-mt-24"
+    >
       <h2 className="text-gray-800 text-[24px] font-semibold leading-[28px] font-[Baskerville]">
         Tools
       </h2>

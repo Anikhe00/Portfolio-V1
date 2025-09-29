@@ -5,7 +5,10 @@ import { ArrowRightIcon } from "../common/Icons";
 
 function Projects() {
   return (
-    <section className="flex flex-col gap-[1rem] md:gap-[1.5rem] lg:gap-[1.5rem] scroll-mt-16 lg:scroll-mt-24 overflow-visible">
+    <section
+      id="projects"
+      className="flex flex-col gap-[1rem] md:gap-[1.5rem] lg:gap-[1.5rem] scroll-mt-16 lg:scroll-mt-24 overflow-visible"
+    >
       <h2 className="text-gray-800 text-[1.25rem] md:text-[1.5rem] lg:text-[1.5rem] font-semibold leading-normal font-[Baskerville]">
         Projects
       </h2>
@@ -15,14 +18,14 @@ function Projects() {
         ))}
       </ul>
 
-      {projectData.length > 5 && (
+      {/* {projectData.length > 5 && (
         <LinkButton
           icon={ArrowRightIcon}
           label="View All Projects"
           onClick={() => (window.location.href = "/projects")}
           className="w-fit h-fit text-[1rem] md:text-[1.25rem] lg:text-[1.25rem] font-[Manrope] text-center leading-[100%]"
         />
-      )}
+      )} */}
     </section>
   );
 }

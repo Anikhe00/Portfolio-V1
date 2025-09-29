@@ -3,7 +3,10 @@ import ArticleCard from "../common/ArticleCard";
 
 function Articles() {
   return (
-    <section className="flex flex-col gap-8 items-start h-auto scroll-mt-16 lg:scroll-mt-24">
+    <section
+      id="articles"
+      className="flex flex-col gap-8 items-start h-auto scroll-mt-16 lg:scroll-mt-24"
+    >
       <h2 className="text-gray-800 text-[24px] font-semibold leading-[28px] font-[Baskerville]">
         Articles
       </h2>
