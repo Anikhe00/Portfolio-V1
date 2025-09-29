@@ -10,10 +10,10 @@ function About() {
 
       <div className="flex flex-col gap-4">
         <p className="text-gray-600 text-[1rem] leading-[1.5rem] font-normal font-[Manrope]">
-          I'm a Design Engineer passionate about creating thoughtful, inclusive
-          digital experiences that blend design and code. I focus on building
-          clean, accessible interfaces that solve real problems and feel
-          effortless to use.
+          I'm a Design Engineer passionate about creating thoughtful, and
+          inclusive digital experiences that blend design and code. I focus on
+          building clean, accessible interfaces that solve real problems and
+          feel effortless to use.
         </p>
 
         <p className="text-gray-600 text-[1rem] leading-[1.5rem] font-normal font-[Manrope]">
