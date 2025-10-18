@@ -15,8 +15,8 @@ export default function Header() {
             <h1 className="text-gray-800 text-[2rem] md:text-[2.25rem] lg:text-[2.25rem] font-bold leading-normal font-[Baskerville]">
               Shakirat Akanji
             </h1>
-            <p className="text-[1.125rem] leading-normal font-normal text-gray-600 font-[Manrope]">
-              Design Engineer
+            <p className="text-[1rem] leading-normal font-normal text-gray-600 font-[Manrope]">
+              Design Engineer and Healthtech Enthusiast
             </p>
           </div>
         </div>

@@ -39,11 +39,11 @@ function App() {
   }, [sections]);
 
   return (
-    <div className="relative mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans gap-[2.5rem] md:px-12 lg:px-80 md:py-16 lg:py-24">
+    <div className="flex flex-col mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans gap-[1rem] md:px-12 lg:px-60 md:py-16 lg:py-24">
       <Header />
       <main
         id="content"
-        className="flex flex-col gap-[2.5rem] lg:gap-[4rem] items-start lg:py-[4rem] w-full overflow-visible"
+        className="flex flex-col gap-[2.5rem] lg:gap-[4rem] items-start  w-full overflow-visible"
       >
         <About />
         <Projects />
