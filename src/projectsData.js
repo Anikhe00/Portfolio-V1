@@ -6,6 +6,7 @@ import faqPageImg from "/src/images/faq-page.png";
 import weatherCastImg from "/src/images/weathercast.png";
 import ideaVaultImg from "/src/images/idea-vault.png";
 import colorSparkImg from "/src/images/color-spark.png";
+import tenziesImg from "/src/images/Tenzies.png";
 
 const projectData = [
   {
@@ -21,6 +22,17 @@ const projectData = [
 
   {
     id: 2,
+    name: "Tenzies",
+    description:
+      "An interactive Tenzies game built with React and TypeScript, where players roll the dice until all show the same number",
+    tools: ["Reactjs", "CSS", "Typescript"],
+    link: "https://typed-tenzies.vercel.app/",
+    github: "https://github.com/Anikhe00/typed-tenzies",
+    image: tenziesImg,
+  },
+
+  {
+    id: 3,
     name: "Rock Paper Scissors",
     description:
       "A visually engaging and interactive Rock Paper Scissors game built with HTML, CSS, and JavaScript. This browser-based game lets a user play against a computer with animated hand choices, score tracking, and a result modal.",
@@ -31,7 +43,7 @@ const projectData = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: "Character Counter",
     description:
       "A feature-rich character counter that provides real-time text analysis, including character, word, and sentence counts. It allows users to set character limits with warnings, estimate reading time, analyze letter density, customize themes, and navigate using only the keyboard—all in a fully responsive interface.",
@@ -42,7 +54,7 @@ const projectData = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Recipe Hub",
     description:
       "RecipeHub is a simple and interactive recipe finder web app that allows users to explore random meals, search for recipes, and view meal details, including categories and YouTube tutorials. It uses TheMealDB API to fetch meal data dynamically.",
@@ -53,7 +65,7 @@ const projectData = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "FAQ Page",
     description:
       "A clean and responsive FAQ Accordion component built using React and TailwindCSS. Users can toggle each FAQ item to expand or collapse the answer, enhancing user experience through smooth animations and intuitive UI.",
@@ -64,7 +76,7 @@ const projectData = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: "WeatherCast",
     description:
       "A clean, simple, and responsive weather application built using HTML, CSS, and vanilla JavaScript. The app fetches real-time weather data from the OpenWeatherMap API and displays key weather information for any city the user searches for.",
@@ -75,7 +87,7 @@ const projectData = [
   },
 
   {
-    id: 7,
+    id: 8,
     name: "Idea Vault",
     description:
       "IdeaVault is a simple web app to save, view, and manage research resources with local storage. No database needed!",
@@ -86,7 +98,7 @@ const projectData = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: "Color Spark",
     description:
       "ColorSpark is a simple web app to generate random colors and copy them to the clipboard. It uses HTML, CSS, and vanilla JavaScript.",
