@@ -12,7 +12,7 @@ function Projects() {
       <h2 className="text-gray-800 text-[1.25rem] md:text-[1.5rem] lg:text-[1.5rem] font-semibold leading-normal font-[Baskerville]">
         Projects
       </h2>
-      <ul className="w-full h-fit flex md:grid lg:grid md:grid-cols-2 lg:grid-cols-2 flex-col content-start gap-[2rem] lg:gap-[1.5rem] self-stretch overflow-visible">
+      <ul className="w-full h-fit flex md:grid lg:grid md:grid-cols-2 lg:grid-cols-2 flex-col content-start gap-[2rem] lg:gap-[3rem] self-stretch overflow-visible">
         {projectData.slice(0, 6).map((project) => (
           <ProjectCard key={project.id} {...project} />
         ))}
